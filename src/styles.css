@@ -105,3 +105,44 @@ h4 {
 .text-white {
   color: white;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    text-align: center;
+  }
+  .homepage-img {
+    display: none;
+  }
+
+  .about-img {
+    margin: 20px;
+  }
+
+  .about-paragraph {
+    padding: 0px 30px;
+  }
+
+  .email-link {
+    font-size: 20px;
+  }
+
+  .app-button {
+    margin: 16px auto;
+  }
+
+  .app-description {
+    text-align: center;
+  }
+}
